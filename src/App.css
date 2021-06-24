@@ -56,3 +56,18 @@
   color: #fff;
   font-size: 100px;
 }
+* {
+  scrollbar-width: rhin;
+  scrollbar-color: rgba(255, 3, 3, 0.808) transparent;
+}
+::-webkit-scrollbar {
+  width: 5px;
+}
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+::-webkit-scrollbar-thumb {
+  background-color: hsla(0, 0%, 60.8%, 0.5);
+  border-radius: 20px;
+  border: transparent;
+}

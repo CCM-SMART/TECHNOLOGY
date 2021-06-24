@@ -1,0 +1,158 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+button {
+  border: none;
+  outline: none;
+  width: 100%;
+  background-color: transparent;
+  color: #fff;
+  padding: 8px 20px;
+  border: 1px solid var(--primary);
+  transition: all 0.3s ease-out;
+  cursor: pointer;
+  font-size: 16px;
+}
+button:hover{
+  transition: all 0.3s ease-out;
+  background: #fff;
+  color: #242424;
+  transition: 250ms;
+}
+.login {
+  width: 100%;
+  min-height: 80vh;
+  padding: 0 20px;
+  display: flex;
+}
+
+.login .login_Container {
+  padding: 60px;
+  margin: auto;
+  width: 100%;
+  max-width: 520px;
+  min-height: 400px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background: linear-gradient(90deg, rgb(28, 27, 27) 0%, rgb(26, 23, 23) 100%);
+  box-shadow: 0 50px 70px -20px rgba(0, 0, 0, 0.8);
+}
+
+.login .login_Container label {
+  color: white;
+  margin: 14px 0;
+  display: block;
+  font-size: 22px;
+  line-height: 1;
+}
+
+.login .login_Container input {
+  width: 100%;
+  border: none;
+  outline: none;
+  font-size: 19px;
+  padding: 10px;
+  background: rgba(255, 255, 255, 0.1);
+  color: #fff;
+  letter-spacing: 1px;
+}
+
+.login .login_Container .btnContainer .button_signin{
+  width: 70%;
+  font-size: 20px;
+}
+.login .login_Container .btnContainer {
+  width: 100%;
+  padding: 24px 0;
+}
+
+.login .login_Container .btnContainer p {
+  
+  margin: 14px 0 0 0;
+  text-align: right;
+  color: #fff;
+}
+
+.login .login_Container .btnContainer p span {
+  color: rgb(255, 0, 106);
+  font-weight: 500;
+  letter-spacing: 0.5px;
+  margin-left: 5px;
+  cursor: pointer;
+  transition: all 400ms ease-in-out;
+}
+
+.login .login_Container .btnContainer p span:hover {
+  color: rgba(66, 255, 246, 0.685);
+}
+
+.login .login_Container .errorMsg {
+  color: red;
+  font-size: 16px;
+}
+
+.hero {
+  width: 100%;
+  min-height: 90vh;
+  background: #fff;
+
+}
+
+.hero nav {
+  background: linear-gradient(90deg, rgb(28, 27, 27) 0%, rgb(26, 23, 23) 100%);
+  width: 60vw;
+  margin-left: 0px;
+  margin-top: -20px;
+  padding: 20px 40px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+
+.hero nav h2 {
+  color: #fff;
+}
+
+.hero nav button {
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  width: 86px;
+  background-color: transparent;
+  color: #fff;
+  padding: 8px 20px;
+  border: 1px solid var(--primary);
+  transition: all 0.3s ease-out;
+  
+
+}
+.hero nav button:hover{
+  transition: all 0.3s ease-out;
+  background: rgb(255, 255, 255);
+  color: #242424;
+  transition: 250ms;
+
+
+
+}
+/*--------------------hero app chat----------*/
+.app{
+  display: grid;
+  place-items: center;
+  background-color: rgba(255, 255, 255, 0);
+  height: 100vh;
+}
+.app__body{
+  display: flex;
+  background-color: #ededed;
+  margin-top: -80px;
+  height: 80vh;
+  width: 60vw;
+  box-sizing: -1px 4px 20px -6px rgba(0,0,0,0.7);
+}
+

@@ -1,0 +1,184 @@
+.cards {
+  background: #fff;
+}
+
+.cards__container {
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  max-width: 1120px;
+  width: 100%;
+}
+
+.cards__wrapper {
+  position: relative;
+  display: grid; 
+  grid-template-columns: repeat(3, 1fr);
+  justify-content: space-between;
+}
+
+.cards__items {
+  margin-bottom: 24px;
+  padding: 5px;
+}
+
+.cards__item {
+
+  flex: 1;
+  margin: 0 1rem;
+  border-radius: 10px;
+}
+
+.cards__items {
+  display: flex;
+  flex-flow: column;
+  width: 100%;
+  box-shadow: 0 6px 20px rgba(56, 125, 255, 0.17);
+  -webkit-filter: drop-shadow(0 6px 20px rgba(56, 125, 255, 0.017));
+  filter: drop-shadow(0 6px 20px rgba(56, 125, 255, 0.017));
+  border-radius: 10px;
+  overflow: hidden;
+  text-decoration: none;
+}
+
+.cards__item__pic-wrap {
+  position: relative;
+  width: 100%;
+  padding-top: 67%;
+  overflow: hidden;
+}
+
+.fade-img {
+  animation-name: fade-img;
+  animation-duration: 2s;
+}
+
+.cards__item__pic-wrap::after {
+  content: attr(data-category);
+  position: absolute;
+  bottom: 0;
+  margin-left: 10px;
+  padding: 6px 8px;
+  max-width: calc((100%) - 60px);
+  font-size: 12px;
+  font-weight: 700;
+  color: #fff;
+  background-color: #1f98f4;
+  box-sizing: border-box;
+}
+
+.cards__item__info {
+  padding: 20px 30px 30px;
+}
+
+.cards__item .CardItem_image h2{
+  margin-top: 50px;
+  color: #252e48;
+  font-size: 18px;
+  line-height: 24px;
+}
+.CardItem_image{
+  background: url('../images/amazfit.png')center center/cover no-repeat; 
+  height: 50vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.2);
+  object-fit: contain;
+}
+.CardItem_image:hover{
+  transform: scale(1.1);
+}
+.Amazfit_gts_2{
+  background: url('../images/Amazfit_gts_2.png')center center/cover no-repeat; 
+  height: 50vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.2);
+  object-fit: contain;
+}
+.Amazfit_gts_2:hover{
+  transform: scale(1.1);
+}
+.lclascl{
+  display: grid; 
+  grid-template-columns: repeat(1, 1fr);
+}
+.haylou_gt_5{
+  background: url('../images/haylou_gt_5.png')center center/cover no-repeat; 
+  height: 50vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.2);
+  object-fit: contain;
+}
+.haylou_gt_5:hover{
+  transform: scale(1.1);
+}
+.Huawey_Watch_fit{
+  background: url('../images/Huawey_Watch_fit.png')center center/cover no-repeat; 
+  height: 50vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.2);
+  object-fit: contain;
+}
+.Huawey_Watch_fit:hover{
+  transform: scale(1.1);
+}
+.Mi_10_lite{
+  background: url('../images/Mi_10_lite.jpeg')center center/cover no-repeat; 
+  height: 50vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.2);
+  object-fit: contain;
+}
+.Mi_10_lite:hover{
+  transform: scale(1.1);
+}
+.mi_10t_pro{
+  background: url('../images/mi_10t_pro.png')center center/cover no-repeat; 
+  height: 50vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.2);
+  object-fit: contain;
+}
+.mi_10t_pro:hover{
+  transform: scale(1.1);
+}
+@media only screen and (min-width: 1200px) {
+  .content__blog__container {
+    width: 84%;
+  }
+}
+
+@media only screen and (max-width: 690px) {
+  .cards__item {
+    margin-bottom: 4rem;
+  }
+  .cards__wrapper {
+    position: relative;
+    display: grid; 
+    grid-template-columns: repeat(1, 1fr);
+    justify-content: space-between;
+  }
+}

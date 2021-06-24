@@ -1,3 +1,4 @@
+/* eslint-disable react-hooks/exhaustive-deps */
 /* eslint-disable no-unused-vars */
 /* eslint-disable default-case */
 import React, {useState, useEffect} from "react";
@@ -76,7 +77,7 @@ const SignUp = () => {
 
   useEffect(() => {
     authListener();
-  }, []);
+  }, [ ]);
 
   return (
     <div className="app">

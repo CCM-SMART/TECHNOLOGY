@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/TECHNOLOGY/static/css/main.7d577d44.chunk.css",
-    "main.js": "/TECHNOLOGY/static/js/main.1347ec54.chunk.js",
-    "main.js.map": "/TECHNOLOGY/static/js/main.1347ec54.chunk.js.map",
+    "main.css": "/TECHNOLOGY/static/css/main.196ec36c.chunk.css",
+    "main.js": "/TECHNOLOGY/static/js/main.307c0fd4.chunk.js",
+    "main.js.map": "/TECHNOLOGY/static/js/main.307c0fd4.chunk.js.map",
     "runtime-main.js": "/TECHNOLOGY/static/js/runtime-main.db81ccd5.js",
     "runtime-main.js.map": "/TECHNOLOGY/static/js/runtime-main.db81ccd5.js.map",
-    "static/js/2.717066ac.chunk.js": "/TECHNOLOGY/static/js/2.717066ac.chunk.js",
-    "static/js/2.717066ac.chunk.js.map": "/TECHNOLOGY/static/js/2.717066ac.chunk.js.map",
+    "static/js/2.e50efedc.chunk.js": "/TECHNOLOGY/static/js/2.e50efedc.chunk.js",
+    "static/js/2.e50efedc.chunk.js.map": "/TECHNOLOGY/static/js/2.e50efedc.chunk.js.map",
     "index.html": "/TECHNOLOGY/index.html",
-    "static/css/main.7d577d44.chunk.css.map": "/TECHNOLOGY/static/css/main.7d577d44.chunk.css.map",
-    "static/js/2.717066ac.chunk.js.LICENSE.txt": "/TECHNOLOGY/static/js/2.717066ac.chunk.js.LICENSE.txt",
+    "static/css/main.196ec36c.chunk.css.map": "/TECHNOLOGY/static/css/main.196ec36c.chunk.css.map",
+    "static/js/2.e50efedc.chunk.js.LICENSE.txt": "/TECHNOLOGY/static/js/2.e50efedc.chunk.js.LICENSE.txt",
     "static/media/Cards.css": "/TECHNOLOGY/static/media/mi_10t_pro.001e272c.png",
     "static/media/HeroSection.css": "/TECHNOLOGY/static/media/img-home.c034239e.jpg"
   },
   "entrypoints": [
     "static/js/runtime-main.db81ccd5.js",
-    "static/js/2.717066ac.chunk.js",
-    "static/css/main.7d577d44.chunk.css",
-    "static/js/main.1347ec54.chunk.js"
+    "static/js/2.e50efedc.chunk.js",
+    "static/css/main.196ec36c.chunk.css",
+    "static/js/main.307c0fd4.chunk.js"
   ]
 }

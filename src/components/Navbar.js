@@ -28,7 +28,7 @@ function Navbar() {
     <>
       <nav className='navbar'>
         <div className='navbar-container'>
-          <Link to='/home' className='navbar-logo' onClick={closeMobileMenu}>
+          <Link to='/smart' className='navbar-logo' onClick={closeMobileMenu}>
             <div>
               <h3 className="h3_position">CCM</h3>
               <h4>SMART TECHNOLOGY</h4>

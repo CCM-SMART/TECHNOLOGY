@@ -1,13 +1,13 @@
 import React from 'react';
 import '../../App.css';
-import './Services.css';
+import './Smart.css';
 
 export default function Services() {
   return(
     <div className="container-content">
-        <h1>Servicios que ofrecemos</h1>
+        <h1>Nosotros somos CCM SMART TECHNOLOGY</h1>
         <div>
-          <h3>Te ofrecemos los mejores servicios tales como: </h3>
+            
         </div>
     </div>
   );
